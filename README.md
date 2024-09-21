@@ -17,6 +17,7 @@ A lightweight, customizable infinite scroll slider for web projects.
    ```
 
 ### 2. Add CSS
+
     ```css
     @keyframes inf-scroll {
     0% { transform: translateX(0); }
@@ -41,6 +42,7 @@ A lightweight, customizable infinite scroll slider for web projects.
 ```
 
 ### 3. Add JS
+
 ```js
 function initInfiniteSliders() {
     const sliders = document.querySelectorAll(".inf-slider");
@@ -160,3 +162,4 @@ Here's an example of how to use all these attributes together:
     <div class="inf-slide">Slide 3</div>
   </div>
 </div>
+```
