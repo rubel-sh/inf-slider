@@ -1,0 +1,20 @@
+@keyframes inf-scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-100% / 2)); }
+  }
+  
+  @keyframes inf-scroll-reverse {
+    0% { transform: translateX(calc(-100% / 2)); }
+    100% { transform: translateX(0); }
+  }
+  
+  .inf-slider {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+  .inf-slide-track {
+    display: flex;
+    width: fit-content;
+  }
