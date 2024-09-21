@@ -7,7 +7,7 @@ A lightweight, customizable infinite scroll slider for web projects.
 ### 1. Add HTML
 
    ```html
-   <div class="inf-slider" data-inf-slide-width="300px" data-inf-animation-speed="30s">
+   <div class="inf-slider" data-inf-slide-width="300px" data-inf-scroll-speed="120">
      <div class="inf-slide-track">
        <div class="inf-slide">Slide 1</div>
        <div class="inf-slide">Slide 2</div>
@@ -112,7 +112,7 @@ This guide explains how to customize the Infinite Slider component using data at
 The Infinite Slider supports the following data attributes:
 
 1. `data-inf-slide-width`
-2. `data-inf-animation-speed`
+2. `data-inf-scroll-speed="120"`
 3. `data-inf-direction`
 4. `data-inf-slide-pause-on-hover`
 
@@ -125,11 +125,11 @@ The Infinite Slider supports the following data attributes:
 - **Example**: `data-inf-slide-width="300px"`
 - **Notes**: Can use any valid CSS width value (px, %, em, rem, etc.).
 
-### 2. data-inf-animation-speed
+### 2. data-inf-scroll-speed="120"
 
 - **Purpose**: Sets the duration of one complete cycle of the slider animation.
 - **Default**: "60s"
-- **Example**: `data-inf-animation-speed="30s"`
+- **Example**: `data-inf-scroll-speed="120"`
 - **Notes**: Use time values in seconds (s) or milliseconds (ms).
 
 ### 3. data-inf-direction
@@ -153,7 +153,7 @@ Here's an example of how to use all these attributes together:
 ```html
 <div class="inf-slider"
      data-inf-slide-width="300px"
-     data-inf-animation-speed="45s"
+     data-inf-scroll-speed="120"
      data-inf-direction="reverse"
      data-inf-slide-pause-on-hover="true">
   <div class="inf-slide-track">
