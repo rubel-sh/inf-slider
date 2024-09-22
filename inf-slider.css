@@ -1,20 +1,25 @@
 @keyframes inf-scroll {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-100% / 2)); }
+  0% {
+    transform: translateX(0);
   }
-  
-  @keyframes inf-scroll-reverse {
-    0% { transform: translateX(calc(-100% / 2)); }
-    100% { transform: translateX(0); }
+  100% {
+    transform: translateX(-50%);
   }
-  
-  .inf-slider {
-    overflow: hidden;
-    position: relative;
-    width: 100%;
+}
+
+@keyframes inf-scroll-reverse {
+  0% {
+    transform: translateX(-50%);
   }
-  
-  .inf-slide-track {
-    display: flex;
-    width: fit-content;
+  100% {
+    transform: translateX(0);
   }
+}
+
+.inf-slide-track {
+  display: flex;
+}
+
+.inf-slide {
+  flex-shrink: 0;
+}

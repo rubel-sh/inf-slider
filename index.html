@@ -1,28 +1,27 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="inf-slider" 
-     data-inf-slide-width="400px" 
-     data-inf-scroll-speed="120" 
-     data-inf-direction="normal" 
-     data-inf-slide-pause-on-hover="true">
-  
-     <div class="inf-slide-track">
-       <div class="inf-slide">Slide 1</div>
-       <div class="inf-slide">Slide 2</div>
-       <div class="inf-slide">Slide 3</div>
-       <div class="inf-slide">Slide 4</div>
-     </div>
-  
-    </div>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', initInfiniteSliders);
-    </script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Horizontal Infinite Slider</title>
+</head>
+
+<body>
+  <div class="inf-slider" data-inf-scroll-speed="30" data-inf-direction="reverse" data-inf-slide-pause-on-hover="true">
+    <div class="inf-slide-track">
+      <div class="inf-slide">Slide 1</div>
+      <div class="inf-slide">Slide 2</div>
+      <div class="inf-slide">Slide 3</div>
+      <div class="inf-slide">Slide 4</div>
+      <div class="inf-slide">Slide 5</div>
+    </div>
+  </div>
+
+  <script src="./inf-slider.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', initInfiniteSliders);
+  </script>
+</body>
+
 </html>
