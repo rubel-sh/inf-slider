@@ -4,19 +4,7 @@ A lightweight, customizable infinite scroll slider for web projects.
 
 ## Quick Start
 
-### 1. Add HTML
-
-   ```html
-    <div class="inf-slider">
-      <div class="inf-slide-track">
-        <div class="inf-slide wide-slide">Wide Slide Content</div>
-        <div class="inf-slide narrow-slide">Narrow Slide Content</div>
-        <div class="inf-slide medium-slide">Medium Slide Content</div>
-      </div>
-    </div>
-   ```
-
-### 2. Add CSS
+### 1. Add CSS
 
 ```css
 @keyframes inf-scroll {
@@ -47,7 +35,7 @@ A lightweight, customizable infinite scroll slider for web projects.
 
 ```
 
-### 3. Add JS
+### 2. Add JS
 
 ```js
 export function initInfiniteSliders() {
@@ -123,6 +111,18 @@ function initInfiniteSliders(): void {
 
 document.addEventListener('DOMContentLoaded', initInfiniteSliders);
 ```
+
+### 4. Apply on html
+
+   ```html
+    <div class="inf-slider">
+      <div class="inf-slide-track">
+        <div class="inf-slide">Wide Slide Content</div>
+        <div class="inf-slide">Narrow Slide Content</div>
+        <div class="inf-slide">Medium Slide Content</div>
+      </div>
+    </div>
+   ```
 
 
 # Infinite Slider Attributes Guide
