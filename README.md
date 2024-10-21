@@ -105,10 +105,6 @@ export function initInfiniteSliders() {
 ### 3. Initialize initInfiniteSliders()
 
 ```html
-function initInfiniteSliders(): void {
-  // Implementation details...
-}
-
 document.addEventListener('DOMContentLoaded', initInfiniteSliders);
 ```
 
